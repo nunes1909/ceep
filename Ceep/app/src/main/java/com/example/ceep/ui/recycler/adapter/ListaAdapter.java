@@ -51,8 +51,17 @@ public class ListaAdapter extends RecyclerView.Adapter<ListaAdapter.NotaViewHold
         }
 
         public void vincula(Nota nota){
+            preencheCampo(nota);
+        }
+
+        private void preencheCampo(Nota nota) {
             titulo.setText(nota.getTitulo());
             descricao.setText(nota.getDescricao());
         }
+    }
+
+    public void adicionada(Nota nota){
+        notas.add(nota);
+        notifyDataSetChanged();
     }
 }

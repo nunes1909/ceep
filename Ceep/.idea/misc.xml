@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/gabri/AndroidStudioProjects/Ceep/app/src/main/res/drawable/fundo_gradiente_insere_nota.xml" value="0.4388888888888889" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/Ceep/app/src/main/res/layout/activity_formulario_nota.xml" value="0.5536458333333333" />
         <entry key="..\:/Users/gabri/AndroidStudioProjects/Ceep/app/src/main/res/layout/activity_lista_notas.xml" value="0.5" />
         <entry key="..\:/Users/gabri/AndroidStudioProjects/Ceep/app/src/main/res/layout/item_nota.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/Ceep/app/src/main/res/menu/menu_formulario_nota_salva.xml" value="0.33" />
       </map>
     </option>
   </component>
