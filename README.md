@@ -16,5 +16,16 @@ Recursos: RecyclerView + ConstraintLayout
       - onBindViewHolder -> ``` Método responsável por a partir das posições, inserir os dados do objeto na RecyclerView. ```
       - getItemCount -> ``` Método responsável por definir o tamanho a RecyclerView. ```
 4. **Implementação do Adapter na classe main.**
-5. **Implementação da classe LinearLayoutManager.**
-    - Classe responsável por gerenciar o layout utilizado na RecyclerView.  
+5. **Implementação do LayoutManager.**
+    - Pode ser implementado na classe main de forma dinâmica.
+    - Pode ser implementado diretamente no xml de forma estática.
+6. **Iniciando uma Activity esperando um resultado.**
+    - O método "startActivityForResult" serve para iniciar uma activity esperando um resultado. (requestCode).
+    - O método "setResult" serve para retorar uma activity informando um resultado. (resultCode).
+7. **Implementação do método onActivityResult.**
+    - Este método serve para verificar se o requestCode e resultCode foram informados.
+8. **Implementação de uma Interface de constantes.**
+9. **Refatoração de todo o código Java e Layout.**
+10. **Finalizando o projeto.** 🚀🎉
+
+![2022-03-13 21-52-34](https://user-images.githubusercontent.com/80295127/158087841-80d667bf-7485-4dd4-9c2f-d5cce462c465.gif)
